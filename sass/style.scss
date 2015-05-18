@@ -1,0 +1,31 @@
+// see compass docs online
+// gives you @include border-radius
+// and other things like that
+// which include all browser prefixes
+@import 'compass';
+
+// our imports
+// _reset.scss, _header.scss for example
+//@import 'reset'; 
+//@import 'header';
+
+// _colours.scss
+@import 'colours';
+
+// Main styles
+// perhaps have a _main.scss
+// and only do imports in this file
+// personal preference/style
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: $body-bg;
+
+    // only for divs inside <body>
+    // with nested class
+    .nested {
+        @include border-radius(5px);
+    }
+}

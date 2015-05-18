@@ -1,0 +1,15 @@
+/* line 19, sass/style.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 23, sass/style.scss */
+body {
+  background-color: #e74c3c;
+}
+/* line 28, sass/style.scss */
+body .nested {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
