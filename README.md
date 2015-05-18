@@ -2,22 +2,22 @@
 
 ## For Wordpress themes
 1. Make sure you have compass installed:
-    a. install Ruby
-    b. `$ gem install compass`
+    1. install Ruby
+    2. `$ gem install compass`
 2. Init a compass project
-    a. `$ compass init`
-    This will set it up the default way. 
-    Has ie.scss, print.scss, some other stuff we can get rid of.
+    1. `$ compass init`
+    2. This will set it up the default way. Has `ie.scss`, `print.scss`, some other stuff we can get rid of.
 3. Remove stuff we don't want.
-    a. `$ rm *.scss`
-    b. `$ rm *.css`
+    1. `$ rm *.scss`
+    2. `$ rm *.css`
 4. Customize our `config.rb`
-    a. see comments in `config.rb`
-    b. I made it so that it compiles css to directory above
+    1. see comments in `config.rb`
+    2. I made it so that it compiles css to directory above
 5. Compile/watch
-    a. `$ cd sass`
-    b. `$ compass compile` or `$ compass watch`
-    c. Note how `style.css` created in directory above
+    1. `$ cd sass`
+    2. `$ compass compile` or `$ compass watch`
+    3. Note how `style.css` created in directory above (i.e. theme directory)
+    4. check out all the browser prefixes in `style.css`!
 
 ## With libsass
 
